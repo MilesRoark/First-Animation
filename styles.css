@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(90, 7, 7);
+}
+
+.container {
+  height: 50rem;
+  width: 60rem;
+  font-family: "Fascinate Inline", sans-serif;
+}
+
+.text {
+  position: relative;
+  top: 7rem;
+  left: 1rem;
+  font-size: 4rem;
+  color: blanchedalmond;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.line {
+  width: 8rem;
+  transition: all 1s ease-in;
+}
+
+.one {
+  animation: onea 3s ease 0.1s infinite;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.two {
+  animation: twoa 3s ease 0.1s infinite;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.three {
+  animation: threea 3s ease 0.1s infinite;
+  transform-origin: 10% 10%;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.four {
+  animation: foura 3s ease 0.1s infinite;
+  transform-origin: 40% 40%;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.text2 {
+  position: relative;
+  top: 10rem;
+  left: 30rem;
+  display: flex;
+  column-gap: 4rem;
+  font-size: 4rem;
+  animation: text2a 9s ease-out 0s infinite;
+  color: rgb(80, 39, 10);
+  transition: all 4s ease-in;
+}
+
+.see,
+.the,
+.light {
+  box-shadow: 0.9rem 0.5rem 1rem 0.1rem;
+}
+
+.see {
+  animation: seea 3s ease 0.1s infinite;
+}
+
+.the {
+  animation: thea 3s ease 0.4s infinite;
+}
+
+.light {
+  animation: lighta 3s ease 0.7s infinite;
+}
+
+@keyframes onea {
+  from {
+    transform: translateX(0rem);
+    color: floralwhite;
+  }
+  to {
+    transform: translateX(20rem);
+    background-color: sandybrown;
+    color: dodgerblue;
+  }
+}
+
+@keyframes twoa {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: translateX(25rem);
+    background-color: brown;
+    color: lightcoral;
+  }
+}
+
+@keyframes threea {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: scale(0.2);
+    transform: rotateY(180deg) skew(30deg);
+  }
+  50% {
+    transform: translateX(35rem);
+    color: black;
+  }
+  100% {
+    transform: translateX(30rem);
+    background-color: cadetblue;
+  }
+}
+
+@keyframes foura {
+  0% {
+  }
+  25% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: translate(38rem);
+    background-color: chocolate;
+    color: darkkhaki;
+  }
+}
+
+@keyframes seea {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: ivory;
+  }
+  100% {
+    background-color: burlywood;
+  }
+}
+
+@keyframes thea {
+  0% {
+    background-color: none;
+    transform: translateY(-5rem);
+  }
+  50% {
+    background-color: rgb(197, 197, 141);
+  }
+  100% {
+    background-color: burlywood;
+  }
+}
+
+@keyframes lighta {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: rgb(218, 218, 190);
+  }
+  100% {
+    background-color: burlywood;
+  }
+}
+
+@keyframes text2a {
+  0% {
+    background-color: none;
+    width: 0;
+  }
+  0% {
+    background-color: gold;
+    width: 10rem;
+  }
+  50% {
+    background-color: gainsboro;
+    width: 25rem;
+  }
+  50% {
+    background-color: goldenrod;
+    width: 33rem;
+  }
+  100% {
+    background-color: burlywood;
+    width: 38rem;
+  }
+}

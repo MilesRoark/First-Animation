@@ -1,0 +1,150 @@
+@media (max-width: 67em) {
+  .text2 {
+    left: 16rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .text2 {
+    left: 3rem;
+  }
+}
+
+@media (max-width: 50em) {
+  @keyframes onea {
+    from {
+      transform: translateX(0rem);
+      color: floralwhite;
+    }
+    to {
+      transform: translateX(10rem);
+      background-color: sandybrown;
+      color: dodgerblue;
+    }
+  }
+  @keyframes twoa {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: translateX(15rem);
+      background-color: brown;
+      color: lightcoral;
+    }
+  }
+  @keyframes threea {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: scale(0.2);
+      transform: rotateY(180deg) skew(30deg);
+    }
+    50% {
+      transform: translateX(25rem);
+      color: black;
+    }
+    100% {
+      transform: translateX(20rem);
+      background-color: cadetblue;
+    }
+  }
+  @keyframes foura {
+    0% {
+    }
+    25% {
+      transform: rotateX(180deg);
+    }
+    100% {
+      transform: translate(28rem);
+      background-color: chocolate;
+      color: darkkhaki;
+    }
+  }
+}
+
+@media (max-width: 35em) {
+  @keyframes onea {
+    from {
+      transform: translateX(0rem);
+      color: floralwhite;
+    }
+    to {
+      transform: translateX(3rem);
+      background-color: sandybrown;
+      color: dodgerblue;
+    }
+  }
+  @keyframes twoa {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: translateX(6rem);
+      background-color: brown;
+      color: lightcoral;
+    }
+  }
+  @keyframes threea {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: scale(0.2);
+      transform: rotateY(180deg) skew(30deg);
+    }
+    50% {
+      transform: translateX(15rem);
+      color: black;
+    }
+    100% {
+      transform: translateX(8rem);
+      background-color: cadetblue;
+    }
+  }
+  @keyframes foura {
+    0% {
+    }
+    25% {
+      transform: rotateX(180deg);
+    }
+    100% {
+      transform: translate(10.5rem);
+      background-color: chocolate;
+      color: darkkhaki;
+    }
+  }
+  .text2 {
+    left: 2rem;
+    font-size: 2rem;
+    gap: 1rem;
+  }
+  @keyframes text2a {
+    0% {
+      background-color: none;
+      width: 0;
+    }
+    0% {
+      background-color: gold;
+      width: 10rem;
+    }
+    50% {
+      background-color: gainsboro;
+      width: 25rem;
+    }
+    50% {
+      background-color: goldenrod;
+      width: 12rem;
+    }
+    100% {
+      background-color: burlywood;
+      width: 18rem;
+    }
+  }
+}
